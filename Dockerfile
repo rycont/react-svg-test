@@ -1,3 +1,3 @@
-FROM node:8.7.0-alpine
+FROM node:latest-alpine
 RUN npm i
 CMD ["npm", "start"]
