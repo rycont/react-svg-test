@@ -1,9 +1,0 @@
-{
-  "schemaVersion": 2,
-  "dockerfileLines": [
-    "FROM socialengine/nginx-spa:latest",
-    "RUN yarn && yarn build",
-    "COPY ./build /app",
-    "RUN chmod -R 777 /app"
-  ]
-}
